@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>TODO</title>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet" />
+
+        <style>
+            
+        </style>
+        <link rel="icon" href="./note-2-24.ico" type="image/ico" sizes="16x16">
+    </head>
+    <body >
+        <script src="./js/main.js">
+            
+        </script>
+        <div class="container">
+                <div class="main">
+                    <input type="text" id="itemAdd" style="width:70%" onkeypress="getEvent(event)"/>
+                    <button onclick="addItem()" class="add">Add Task</button>
+                    <button onclick="resetItems()" class="remove">Remove all </button>
+                </div>
+                <div id="tasks">
+            
+                </div>
+        </div>
+        
+        <script>
+            update();
+        </script>
+    </body>
+</html>
